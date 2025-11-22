@@ -1,0 +1,18 @@
+cd
+ls
+pwd
+code . 
+
+git clone https://github.com/kanokkwan254705-sketch/basic_python_68_2.git
+
+git init
+git remote add originhttps://github.com/kanokkwan254705-sketch/basic_python_68_2.git
+
+git config -- global user.name"your name"
+git config -- global user.email"your email" #ใส่อีเมลตัวเอง
+
+git add .
+git comit -n"your message"
+git push origin main
+
+git pull origin main
